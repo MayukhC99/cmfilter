@@ -1,0 +1,19 @@
+{
+  "name": "cmfilter",
+  "version": "1.0.4",
+  "description": "A filter for cashstar messages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mayukh Chakrabarti",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "prompt-sync": "^4.2.0",
+    "yargs": "^17.0.1"
+  },
+  "bin": {
+    "cmfilter": "./index.js"
+  }
+}
